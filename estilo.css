@@ -108,7 +108,7 @@ h2{
 .primero{
     display: flex;
     flex-direction: column;
-    
+   
 }
 
 .segundo{
@@ -126,5 +126,6 @@ h2{
     display: flex;
     flex-wrap: nowrap;
  justify-content: space-around;
+ 
 }
 
