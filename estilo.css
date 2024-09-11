@@ -17,42 +17,92 @@ header{
 h1{
     background-color: rgb(255, 255, 255);
     width: 900px;
+    transition: background 1s linear;
+}
+
+h1:hover{
+    background: rgb(0, 0, 0);
+    color: goldenrod;
 }
 
 h2{
     color: rgb(255, 255, 255);
  padding: 30px;
  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAwIcLZ8-XQm3RYgNiA1TO5mxem0ZYgkKQFA&s);
+ font-family: "Bebas Neue", sans-serif;
 }
 
 .messi{
-    background-color: rgb(155, 45, 103);
+    background-color: gray;
     border: 9px rgb(0, 0, 0) outset;
+ transition: background 1s linear;
+ 
+}
+
+.messi:hover {
+    background: rgb(167, 2, 112);
+    
+}
+
+.linkju{
+    border: rgb(0, 0, 0) 5px double;
+    margin: 10px 90px;
+    transition: border 1s linear;
+}
+
+.linkju:hover{
+    border: goldenrod 8px double;
+    background: whitesmoke;
 }
 
 .neymarjr{
-    background-color: rgb(30, 30, 158);
+    background-color: gray;
     border: 9px rgb(5, 5, 5) outset;
+    transition:  background 1s linear;
+}
+
+.neymarjr:hover{
+    background: rgb(29, 5, 161);
 }
 
 .kevin{
-    background-color: rgb(78, 7, 43);
+    background-color: gray;
     border: 9px rgb(0, 0, 0) outset;
+    transition:  background 1s linear;
+}
+
+.kevin:hover{
+    background: rgb(99, 20, 39);
 }
 
 .vandijk{
-    background-color: firebrick;
+    background-color: gray;
     border: 9px rgb(0, 0, 0) outset;
+    transition:  background 1s linear;
+}
+
+.vandijk:hover{
+    background: rgb(172, 7, 51);
 }
 
 .navas{
-    background-color: green;
+    background-color: gray;
     border: 9px rgb(0, 0, 0) outset;
+    transition:  background 1s linear;
+}
+
+.navas:hover{
+    background: rgb(23, 95, 14);
 }
 
 .trent{
-    background-color: maroon;
+    background-color: gray;
     border: 9px rgb(0, 0, 0) outset;
+    transition:  background 1s linear;
+}
+
+.trent:hover{
+    background: rgb(189, 2, 2);
 }
 
 .primero{
@@ -64,17 +114,17 @@ h2{
 .segundo{
     display: flex;
     flex-direction: column;
-   
 }
 
 .tercero{
     display: flex;
     flex-direction: column;
+    
 }
 
 .todo{
     display: flex;
-    justify-content: space-evenly;
-
+    flex-wrap: nowrap;
+ justify-content: space-around;
 }
 
