@@ -3,9 +3,88 @@
 }
 
 header {
-    background-color: rgb(222, 99, 226);
+    background-color: rgb(211, 21, 78);
     padding: 25px 0px;
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 30px;
     border-bottom: 15px black double;
+}
+
+h2{
+    font-family: "Protest Guerrilla", sans-serif;
+     
+}
+
+body{
+    background-color: rgb(44, 43, 43);
+    color: aliceblue;
+}
+
+.uno{
+    border: rgb(0, 0, 0) 5px solid;
+    padding: 15px;
+    width: 80%;
+    transition: background 0.5s linear;
+}
+.uno:hover{
+    background: rgb(0, 0, 0);
+}
+
+.imguno{
+    height: 60%;
+    
+}
+
+.desc{
+    height: 35%;
+}
+
+.dos{
+    border: rgb(0, 0, 0) 5px solid;
+    padding: 200px 20px;
+    width: 70%;
+    text-align: center;
+    font-size: 20px;
+    transition: background 0.5s linear;
+}
+
+.dos:hover{
+    background: goldenrod;
+}
+
+.tres{
+    border: rgb(0, 0, 0) 5px solid;
+text-align: center;
+padding: 15px;
+transition: background 0.5s linear;
+}
+
+.tres:hover{
+    background: rgb(211, 21, 78);
+}
+
+.imgdos{
+    
+    height: 50%;
+}
+
+.tro{
+    
+    height: 48%;
+
+}
+
+.todo{
+   
+    display: flex;
+    font-family: "Cinzel", serif;
+    transition: background 0.5s linear;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    padding: 10px;
 }
