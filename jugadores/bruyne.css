@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(222, 99, 226);
+    padding: 25px 0px;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 30px;
+    border-bottom: 15px black double;
+}

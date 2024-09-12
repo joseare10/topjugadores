@@ -63,12 +63,12 @@ h2{
 }
 
 .imgdos {
-    
     text-align: center;
     border: 5px black solid;
     width: 40%;
     padding: 0px 10px;
     transition: background 0.5s linear;
+    
 }
 
 .imgdos:hover{
@@ -78,14 +78,14 @@ h2{
 .segundo {
     display: flex;
     flex-direction: row;
-    height: 350pt;
+    height: 370pt;
     color: aliceblue;
 }
 
 .indi {
    
     border: rgb(0, 0, 0) 5px solid;
-    width: 60%;
+    width: 53%;
     text-align: center;
     order: 2;
 }
@@ -93,7 +93,7 @@ h2{
 .imgtres {
    
     border: rgb(8, 8, 6) 5px solid;
-    width: 40%;
+    width: 47%;
     text-align: center;
     padding: 0px 10px;
     order: 1;
@@ -113,7 +113,6 @@ h2{
 
 .links{
     background-color: rgb(0, 0, 0);
-    color: rgb(28, 116, 194);
     display: flex;
     justify-content: space-evenly;
     font-size: 30px;
