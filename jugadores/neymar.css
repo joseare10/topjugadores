@@ -33,6 +33,12 @@ h2{
     border: 5px black solid;
 }
 
+.aden desc{
+    border-radius: 50%;
+   
+}
+
+
 .imgdos{
     width: 45%;
   border: 10px black solid;
@@ -43,28 +49,18 @@ h2{
 
 
 .desc{
-   text-align: center;
-   transition: background 0.5s linear;
-}
-.desc:hover{
-    background: gold;
-}
-
-.trofe{
-    transition: background 0.5s linear;
     text-align: center;
-}
-.trofe:hover{
-    background: gold;
-}
-
-.equip{
     transition: background 0.5s linear;
-    text-align: center;
-}
-.equip:hover{
-    background: gold;
-}
+   
+    
+ }
+ .desc:hover{
+     background: gold;
+ }
+
+
+
+
 
 .primero{
     display: flex;

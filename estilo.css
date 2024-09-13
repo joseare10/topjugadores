@@ -34,9 +34,9 @@ h2{
 
 .messi{
     background-color: gray;
-    border: 9px rgb(0, 0, 0) outset;
+    width: 500px;
  transition: background 1s linear;
- 
+ border: 9px rgb(0, 0, 0) outset;
 }
 
 .messi:hover {
@@ -47,7 +47,7 @@ h2{
 .linkju{
     border: rgb(0, 0, 0) 5px double;
     margin: 10px 90px;
-    transition: border 1s linear;
+   
 }
 
 .linkju:hover{
@@ -57,7 +57,7 @@ h2{
 
 .neymarjr{
     background-color: gray;
-    border: 9px rgb(5, 5, 5) outset;
+    border: 9px rgb(0, 0, 0) outset;
     transition:  background 1s linear;
 }
 
@@ -67,8 +67,9 @@ h2{
 
 .kevin{
     background-color: gray;
-    border: 9px rgb(0, 0, 0) outset;
+   width: 500px;
     transition:  background 1s linear;
+    border: 9px rgb(0, 0, 0) outset;
 }
 
 .kevin:hover{
@@ -87,8 +88,9 @@ h2{
 
 .navas{
     background-color: gray;
-    border: 9px rgb(0, 0, 0) outset;
+    width: 500px;
     transition:  background 1s linear;
+    border: 9px rgb(0, 0, 0) outset;
 }
 
 .navas:hover{
@@ -108,24 +110,25 @@ h2{
 .primero{
     display: flex;
     flex-direction: column;
-   
+   width: 400px;
 }
 
 .segundo{
     display: flex;
     flex-direction: column;
+    width: 400px;
 }
 
 .tercero{
     display: flex;
     flex-direction: column;
-    
+    width: 40opx;
 }
 
 .todo{
     display: flex;
     flex-wrap: nowrap;
  justify-content: space-around;
- 
+ width: 100%;
 }
 
